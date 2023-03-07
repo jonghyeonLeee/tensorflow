@@ -5,42 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="845e2795-026b-40c1-ba77-8fd92e19d750" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/icons/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/icons/chrome.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/icons/erwt.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/icons/license.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/icons/nodejs.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/icons/react.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/icons/typescript.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/icons/webpack.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/screenshot.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Application.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Application.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Icons.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Theme.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/webpack/webpack.aliases.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/webpack/webpack.config.dev.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/webpack/webpack.config.prod.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/webpack/webpack.helpers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/webpack/webpack.plugins.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/webpack/webpack.rules.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +81,7 @@
       <workItem from="1676774235031" duration="1782000" />
       <workItem from="1676814349842" duration="598000" />
       <workItem from="1676900766204" duration="2470000" />
-      <workItem from="1677997840958" duration="2151000" />
+      <workItem from="1677997840958" duration="3084000" />
     </task>
     <servers />
   </component>
