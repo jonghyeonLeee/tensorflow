@@ -1,70 +1,115 @@
-# Getting Started with Create React App
+# React Webpack Typescript (RWT)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+React Webpack Typescript Boilerplate with custom webpack configurations for hot reloading.
 
-## Available Scripts
+A minimal secure boilerplate for writing Web Applications using [React](https://reactjs.org/), [Webpack](https://webpack.js.org/) & [TypeScript](https://www.typescriptlang.org/). <br /> This project makes use of latest packages and configurations to serve the best environment for development.
 
-In the project directory, you can run:
+<br>
 
-### `npm start`
+## Screenshot
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<img src="assets/images/screenshot.png" />
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<br>
 
-### `npm test`
+## Core Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- ⚛️ React
+- 🌀 TypeScript
+- 🥗 SASS/SCSS Loader
+- 🛶 LESS Loader (optional)
+- 🎨 CSS Loader
+- 📸 Image Loader
+- 🆎 Font Loader
+- 🧹 ESLint
+- 🔱 Webpack & Configuration
+- 🧩 Aliases for Project Paths
+- 🔥 React Fast Refresh + Webpack HMR
+- 🌞 Dark Mode + Light Mode (Theme)
 
-### `npm run build`
+<br />
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### To install this boilerplate you need to run following commands
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<br>
 
-### `npm run eject`
+Clone the repository :
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+git clone https://github.com/codesbiome/react-webpack-typescript-2022
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<br>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Install dependencies using Yarn or NPM or PNPM :
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+# using pnpm
+pnpm install
 
-## Learn More
+# or using yarn
+yarn install
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# or using npm
+npm install
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<br />
 
-### Code Splitting
+## Start : Development
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+To develop and run your web application, you need to run following command :
 
-### Analyzing the Bundle Size
+```bash
+yarn start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+<br />
 
-### Making a Progressive Web App
+## Lint : Development
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+To lint application source code using ESLint via this command :
 
-### Advanced Configuration
+```bash
+yarn lint
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<br />
 
-### Deployment
+## Build : Production
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Distribution files output will be generated in `dist/` directory by default.
 
-### `npm run build` fails to minify
+To build the production ready files for distribution, use the following command :
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+yarn build
+```
+
+<br />
+
+## Serve : Production
+
+Serve helps you serve a static site, single page application or just a static file. It also provides a neat interface for listing the directory's contents. This command serves build files from `dist/` directory.
+
+```bash
+yarn serve
+```
+
+<br />
+
+## Webpack Configurations
+
+To make it easier for managing environment based webpack configurations, we using separated `development` and `production` configuration files, they are available in :
+
+```bash
+# Development webpack config
+tools/webpack/webpack.config.dev.js
+
+# Production webpack config
+tools/webpack/webpack.config.prod.js
+```
+
+For further information, you can visit [Webpack Configuration](https://webpack.js.org/configuration/)
