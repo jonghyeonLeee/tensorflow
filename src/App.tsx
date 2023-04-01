@@ -1,7 +1,7 @@
-import Hello from '~/components/Hello';
+import Home from '~/pages/Home';
 
 function App() {
-  return <Hello />;
+  return <Home />;
 }
 
 export default App;
