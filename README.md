@@ -1,115 +1,81 @@
-# React Webpack Typescript (RWT)
+<h1 align='center'>Vite + React + TypeScript + Eslint + Prettier Template ⚡</h1>
 
-React Webpack Typescript Boilerplate with custom webpack configurations for hot reloading.
+Create a new project with Vite, React JS, TypeScript, Eslint, Prettier in just 1 second and you don't need to setup anything.
 
-A minimal secure boilerplate for writing Web Applications using [React](https://reactjs.org/), [Webpack](https://webpack.js.org/) & [TypeScript](https://www.typescriptlang.org/). <br /> This project makes use of latest packages and configurations to serve the best environment for development.
+#### **Vercel Deploy: https://vite-react-ts-eslint-prettier.vercel.app**
 
-<br>
+![image](https://user-images.githubusercontent.com/70432453/170648662-2ff424b9-74e9-4754-a04d-512fe1496a3b.png)
 
-## Screenshot
+## **Some Features 📋**
 
-<img src="assets/images/screenshot.png" />
+Alias Import
 
-<br>
+![image](https://user-images.githubusercontent.com/70432453/170644457-ede03cca-44e9-4543-94d3-412c9d317063.png)
 
-## Core Features
+Hook Warning
 
-- ⚛️ React
-- 🌀 TypeScript
-- 🥗 SASS/SCSS Loader
-- 🛶 LESS Loader (optional)
-- 🎨 CSS Loader
-- 📸 Image Loader
-- 🆎 Font Loader
-- 🧹 ESLint
-- 🔱 Webpack & Configuration
-- 🧩 Aliases for Project Paths
-- 🔥 React Fast Refresh + Webpack HMR
-- 🌞 Dark Mode + Light Mode (Theme)
+![image](https://user-images.githubusercontent.com/70432453/170638708-23a20ffd-156e-494a-84be-b1e1cfdb5c93.png)
 
-<br />
+Prettier Warning
 
-## Installation
+![image](https://user-images.githubusercontent.com/70432453/170639043-24423ed1-73cc-4730-b270-2acea1ae0c74.png)
 
-#### To install this boilerplate you need to run following commands
+Etc...
 
-<br>
+## **Using 📦**
 
-Clone the repository :
+1. Clone Template
 
-```bash
-git clone https://github.com/codesbiome/react-webpack-typescript-2022
+```
+git clone https://github.com/igdev116/vite-react-ts-eslint-prettier.git
 ```
 
-<br>
+2. Install Packages
 
-Install dependencies using Yarn or NPM or PNPM :
-
-```bash
-# using pnpm
-pnpm install
-
-# or using yarn
+```
 yarn install
-
-# or using npm
-npm install
 ```
 
-<br />
+3. Start Project
 
-## Start : Development
-
-To develop and run your web application, you need to run following command :
-
-```bash
-yarn start
+```
+yarn dev
 ```
 
-<br />
+4. If you using git, delete the existing folder .git after cloning (open `git bash` or other terminal)
 
-## Lint : Development
+```
+rm -rf .git
+```
 
-To lint application source code using ESLint via this command :
+## **Options ✍️**
 
-```bash
+1. Check lint
+
+```
 yarn lint
 ```
 
-<br />
+2. Fix lint
 
-## Build : Production
-
-Distribution files output will be generated in `dist/` directory by default.
-
-To build the production ready files for distribution, use the following command :
-
-```bash
-yarn build
+```
+yarn lint:fix
 ```
 
-<br />
+3. Check prettier
 
-## Serve : Production
-
-Serve helps you serve a static site, single page application or just a static file. It also provides a neat interface for listing the directory's contents. This command serves build files from `dist/` directory.
-
-```bash
-yarn serve
+```
+yarn prettier
 ```
 
-<br />
+4. Fix prettier
 
-## Webpack Configurations
-
-To make it easier for managing environment based webpack configurations, we using separated `development` and `production` configuration files, they are available in :
-
-```bash
-# Development webpack config
-tools/webpack/webpack.config.dev.js
-
-# Production webpack config
-tools/webpack/webpack.config.prod.js
+```
+yarn prettier:fix
 ```
 
-For further information, you can visit [Webpack Configuration](https://webpack.js.org/configuration/)
+5. Fix lint and prettier
+
+```
+yarn format
+```

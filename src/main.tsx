@@ -1,12 +1,13 @@
 import React from 'react';
-import { createRoot } from 'react-dom/client';
-import Application from './components/Application';
+import ReactDOM from 'react-dom/client';
 
-// Say something
-console.log('[ERWT] : Renderer execution started');
+import App from './App';
 
-// Application to Render
-const app = <Application />;
+// styles
+import './index.css';
 
-// Render application in DOM
-createRoot(document.getElementById('app')).render(app);
+ReactDOM.createRoot(document.getElementById('root')!).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+);
