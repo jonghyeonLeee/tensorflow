@@ -59,6 +59,8 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "yarn",
+    "prettierjs.PrettierConfiguration.Package": "/Users/ijonghyeon/Project/back-remover/node_modules/prettier",
+    "settings.editor.selected.configurable": "settings.javascript.prettier",
     "ts.external.directory.path": "/Users/ijonghyeon/Project/back-remover/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
@@ -93,7 +95,7 @@
       <workItem from="1676814349842" duration="598000" />
       <workItem from="1676900766204" duration="2470000" />
       <workItem from="1677997840958" duration="3084000" />
-      <workItem from="1680377754254" duration="229000" />
+      <workItem from="1680377754254" duration="12973000" />
     </task>
     <servers />
   </component>
